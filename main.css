@@ -6,60 +6,57 @@
 }
 
 body {
-	background-color: #272727;
+	background: url(bg_01.jpg) repeat center center;
 }
 
 .coloumn-container{
-	margin: 35px;
-}
-
-.cl-left{
-	margin: 10px;
+	margin-top: 40px;
+	margin-right: 50px;
+	margin-left: 50px;
 }
 
 /*Base*/
 
-/*Left side*/
-
-.left-container{
-	float: left;
-	max-width: 20%;
-}
-
-.logo{
-	width: 100%;
-}
-
-/*Left side*/
-
 /*center*/
 
 .center-container{
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+	background-color: #323232;
+}
+
+.logo{
+	overflow: visible;
 	float: left;
-	max-width: 60%;
+	max-width: 30%;
+	margin-left: 5%;
+}
+
+.logo img{
+	max-width: 100%;
 }
 
 .nav {
   margin: auto;
   margin-bottom: 10px;
-  border: 1px solid #C1AD38;
-  border-radius: 5px;
-  max-width: 100%;
   text-align: center;
+  overflow: hidden;
+  padding-top: 25px;
 }
 
 .nav-items {
-
-  background-color: #C1AD38;
   display: table;
   margin: 0;
   padding: 0;
   list-style: none;
-  width: 100%;
+  padding-top: 30px;
+  margin-left: 33%;
+  width: 60%;
+
 }
 
 .nav-items li {
-  background-color: #C1AD38;
   display: table-cell;
   border-radius: 5px;
 }
@@ -75,7 +72,7 @@ body {
 }
 
 .slider{
-	margin: 0 auto;
+	margin: 25px;
 	margin-bottom: 10px;
 }
 .slider img {
@@ -84,8 +81,7 @@ body {
 
 .main-content{
 	display: flex;
-	background-color: #2E2E2E;
-	border-radius: 5px;
+	background-color: #212121;
 }
 
 .content{
@@ -93,11 +89,21 @@ body {
 }
 /*Center*/
 
-/*Right SIde*/
+/*Services*/
 
-.right-container{
-	float: right;
-	max-width: 20%;
+.services{
+	text-align: center;
 }
 
-/*Right side*/
+.services h2{
+	color: white;
+
+}
+
+
+.services h4{
+	color: #777777;
+	
+}
+
+/*Services*/
