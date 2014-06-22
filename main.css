@@ -96,14 +96,29 @@ body {
 }
 
 .services h2{
+	display: inline-block;
 	color: white;
-
+	border-bottom: 2px solid #0066B1;
+	margin-bottom: 0;
 }
 
 
 .services h4{
 	color: #777777;
-	
+	font-weight: lighter;
 }
 
+.service-container{
+	display: inline-block;
+	max-width: 24%;
+}
+
+.service-container h3{
+	color: white;
+}
+
+.service-container p{
+	text-align: left;
+	font-size: 14px;
+}
 /*Services*/
