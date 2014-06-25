@@ -13,6 +13,7 @@ body {
 	margin: 40px auto;
 	max-width: 960px;
 	border-radius: 3px;
+	background-color: #323232;
 }
 
 /*Base*/
@@ -24,8 +25,8 @@ body {
 	max-width: 100%;
 	margin: 0 auto;
 	background-color: #323232;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
 }
 
 .logo{
@@ -97,7 +98,8 @@ body {
 .content{
 	flex: 3;
 	margin: 0;
-	padding: 40px;
+	padding: 30px;
+	line-height: 25px;
 }
 /*Center*/
 
@@ -145,8 +147,10 @@ body {
 /*Footer*/
 footer{
 	margin: 20px;
+	padding: 3px;
 	background-color: #212121;
 	box-shadow: 0px 0px 10px 1px #000000;
 	text-align: center;
+	font-weight: lighter;
 }
 /*Footer*/
